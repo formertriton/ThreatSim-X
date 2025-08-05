@@ -1,6 +1,29 @@
 # ThreatSim-X -- Threat Simulation & Response Framework
 Goal: Build a modular framework to simulate basic cyber/physical threats and test response workflows perfect for DevSecOps, space systems, or smart infrastructure themes.
 
+# Threat Simulation & Response Framework
+
+## Overview
+
+Simulates cyber threats like brute force attacks and port scanning, detects suspicious behavior, and triggers automated response actions including IP blocking and incident logging.
+
+## Features
+
+- Modular threat simulators
+- Detection based on configurable thresholds
+- Automated mock responses (logging, IP blocking, alerting)
+- Simple Python framework for cybersecurity demos
+
+## Getting Started
+
+1. Create a virtual environment and install dependencies:
+
+```bash
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+
+
 # 🚀 Overview
 
 Threat Simulation & Response Framework is a cybersecurity-oriented project designed to simulate a variety of common network-based threats and demonstrate automated detection and response logic. The goal is to model how real-world security systems—such as Intrusion Detection Systems (IDS) or Security Information and Event Management (SIEM)—can behave in detecting and mitigating attacks.
