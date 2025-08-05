@@ -57,8 +57,7 @@ threatsim-x/
 ```
 <img width="489" height="545" alt="Screenshot 2025-08-04 182732" src="https://github.com/user-attachments/assets/6433146c-bd6a-4ca4-a5d9-f080bc674586" />
 
-<img width="489" height="545" alt="Screenshot 2025-08-04 182732" src="https://github.com/user-attachments/assets/3ec63bb0-8a9b-4085-8ac8-34f62386f186" />
-<img width="719" height="332" alt="Screenshot 2025-08-04 182744" src="https://github.com/user-attachments/assets/f5580714-606b-4120-a302-45405daa45b2" />
+<img width="719" height="332" alt="Screenshot 2025-08-04 182744" src="https://github.com/user-attachments/assets/8d4b0fae-0044-4fea-b75b-83c584302399" />
 
 # ✅ Getting Started
 
