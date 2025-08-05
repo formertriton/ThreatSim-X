@@ -28,3 +28,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+for attack in attacks[:5]:  # show first 5
+    print(attack)
