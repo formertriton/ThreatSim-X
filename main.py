@@ -16,6 +16,12 @@ def main():
         print(attack)
 
     alerts = detect_brute_force(attacks, threshold=20)
+
+    # Show first 5 attacks for debugging
+    for attack in attacks[:5]:
+        print(attack)
+
+    alerts = detect_brute_force(attacks, threshold=5)
     print(f"Detected alerts: {len(alerts)}")
 
     for alert in alerts:

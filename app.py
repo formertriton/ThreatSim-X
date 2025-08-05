@@ -19,6 +19,8 @@ def run_simulation():
     st.session_state.alerts = alerts
 
 # Button to manually run simulation
+
+>>>>>>> be55301 (Add Streamlit dashboard for live attack simulation and alerts)
 if st.button("Run Simulation"):
     run_simulation()
 
@@ -33,5 +35,6 @@ for alert in st.session_state.alerts:
 st.write("Auto-refreshing every 10 seconds...")
 
 # Auto refresh page every 10 seconds to simulate live updates
+
 time.sleep(10)
 st.experimental_rerun()
