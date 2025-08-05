@@ -1,0 +1,3 @@
+brute_force_threshold: 20
+port_scan_threshold: 50
+malware_signature_threshold: 5
