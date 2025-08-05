@@ -1,6 +1,3 @@
-"""
-Entry point to run simulations and trigger detection/response
-"""
 import time
 from simulators.brute_force import simulate_brute_force
 from detectors.anomaly_detector import detect_brute_force
@@ -11,14 +8,18 @@ from responders.notify_admin import notify_admin
 def main():
     print("Starting ThreatSim Framework...")
 
-    # Simulate brute force attack
     attacks = simulate_brute_force(target_ip="127.0.0.1", attempts=50)
+    print(f"Total simulated attacks: {len(attacks)}")
 
-    # Detect attacks
-    alerts = detect_brute_force(attacks, threshold=20)
+    # Show first 5 attacks for debugging
+    for attack in attacks[:5]:
+        print(attack)
 
-    # Respond to alerts
+    alerts = detect_brute_force(attacks, threshold=5)
+    print(f"Detected alerts: {len(alerts)}")
+
     for alert in alerts:
+        print(f"Alert: {alert}")
         block_ip(alert['source_ip'])
         log_incident(alert)
         notify_admin(alert)
