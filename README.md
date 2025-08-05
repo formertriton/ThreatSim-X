@@ -1,8 +1,6 @@
 # ThreatSim-X -- Threat Simulation & Response Framework
 Goal: Build a modular framework to simulate basic cyber/physical threats and test response workflows perfect for DevSecOps, space systems, or smart infrastructure themes.
 
-# Threat Simulation & Response Framework
-
 # 🚀 Overview
 
 ThreatSim-X is a modular, Python-based framework for simulating and detecting cyber threats, triggering automated responses, and logging incidents. Ideal for cybersecurity demos in DevSecOps, smart infrastructure, or space systems contexts.
