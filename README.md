@@ -18,11 +18,11 @@ Simulates cyber threats like brute force attacks and port scanning, detects susp
 
 1. Create a virtual environment and install dependencies:
 
-```bash
+```
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
-
+```
 
 # 🚀 Overview
 
