@@ -1,6 +1,3 @@
-"""
-Entry point to run simulations and trigger detection/response
-"""
 import time
 from simulators.brute_force import simulate_brute_force
 from detectors.anomaly_detector import detect_brute_force
@@ -14,6 +11,10 @@ def main():
     attacks = simulate_brute_force(target_ip="127.0.0.1", attempts=50)
     print(f"Total simulated attacks: {len(attacks)}")
 
+    # Show first 5 attacks for debugging
+    for attack in attacks[:5]:
+        print(attack)
+
     alerts = detect_brute_force(attacks, threshold=20)
     print(f"Detected alerts: {len(alerts)}")
 
@@ -25,9 +26,5 @@ def main():
 
     print("Simulation complete.")
 
-
 if __name__ == "__main__":
     main()
-
-for attack in attacks[:5]:  # show first 5
-    print(attack)
